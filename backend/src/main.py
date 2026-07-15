@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 
 from src.api.repository import router as repository_router
+from src.api.parser import router as parser_router
 
 app = FastAPI(
     title="CodeMind AI",
@@ -9,6 +10,7 @@ app = FastAPI(
 )
 
 app.include_router(repository_router)
+app.include_router(parser_router)
 
 
 @app.get("/")
