@@ -1,0 +1,45 @@
+# Virtual Environment
+venv/
+backend/venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# Vector Database
+backend/vector_db/
+
+# Uploaded repositories
+backend/workspace/
+
+# Uploads
+backend/uploads/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
